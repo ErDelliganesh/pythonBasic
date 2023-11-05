@@ -46,10 +46,10 @@ def displayIterationInSameLineDescending(noOfIteration, startFrom):
 print("Iteration from same line Ascending:")
 displayIterationInSameLineAscending(startFrom, noOfIteration)
 
-print("Iteration from same line Decending:")
+print("Iteration from same line Descending:")
 displayIterationInSameLineDescending(noOfIteration, startFrom)
 
-''' print iteration ascending and decending with proper alignment'''
+''' print iteration ascending and descending with proper alignment'''
 
 # Ascending
 def displayIterationInSameLineAscendingAlign(startFrom, noOfIteration):
@@ -72,6 +72,6 @@ def displayIterationInSameLineDescendingAlign(noOfIteration, startFrom):
         noOfIteration -= 1
     print()
 
-print("propertly aligned Asc and Dec")
+print("properly aligned Asc and Dec")
 displayIterationInSameLineAscendingAlign(startFrom, noOfIteration)
 displayIterationInSameLineDescendingAlign(noOfIteration, startFrom)

@@ -54,7 +54,7 @@ print(breath)
 # Assign same value to multiple variables 
 length = width = height = 5
 
-'''value error if we doesn't follow the assining values to the variable'''
+'''value error if we doesn't follow the assigning values to the variable'''
 # length, width, height = 5
 # length, width, height = 5,5
 # length, width, height = 5,5,5,5
