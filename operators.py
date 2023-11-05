@@ -1,8 +1,8 @@
 # Operators
 
 '''
-1. Arithmetic Operators -> Addition, Substraction, Mulitiplication, Division
-2. String Operation -> Assignment, Concat, repetition, slicing, comparison, Membership, Escape sequence, Formating
+1. Arithmetic Operators -> Addition, Subtraction, Multiplication, Division
+2. String Operation -> Assignment, Concat, repetition, slicing, comparison, Membership, Escape sequence, Formatting
 3. Boolean Expression -> True, False
 '''
 # Boolean Expression
@@ -14,11 +14,11 @@ print("Boolean ", var1 == var2)
 addition = var1 + var2
 print("Addition of var1 and var2 :", addition)
 
-#substraction
+#subtraction
 sub = var1 - var2
-print("Substraction of var1 and var2 :", sub)
+print("Subtraction of var1 and var2 :", sub)
 
-#Multiplicaiton
+#Multiplication
 mul = var1 * var2
 print("Multiply of var1 and var2 :", mul)
 
@@ -26,8 +26,8 @@ print("Multiply of var1 and var2 :", mul)
 div = var1/var2
 print("Divide of var1 and var2 :", div)
 
-divWithQuotent = var1 // var2
-print("Quotent value of div :", divWithQuotent)
+divWithQuotient = var1 // var2
+print("Quotient value of div :", divWithQuotient)
 
 divWithRound = round(div)
 print("Round of div :", divWithRound)
@@ -55,10 +55,10 @@ print("Comparison Operator :", str1 != str2)
 # Escape Sequence Operator - "\"
     # str3 = "Hello all happy "day"" -> it doesn't work
 str3 = "Hello all happy \"day\""
-print("Escape Sequece Operator :", str3)
+print("Escape Sequence Operator :", str3)
 
 # String Formatting Operator - "%" or "{}"
-cName = "Toyoto"
+cName = "Toyota"
 model = 2022
 price = 20.00
 var1 = 'This is %s' % (cName)
